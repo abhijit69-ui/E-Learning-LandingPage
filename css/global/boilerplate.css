@@ -7,6 +7,13 @@
   --c-white: hsl(0, 0%, 100%);
   --gradient-pink: linear-gradient(hsl(13, 100%, 64%), hsl(322, 87%, 55%));
   --gradient-purple: linear-gradient(hsl(237, 100%, 64%), hsl(322, 87%, 55%));
+  --fs-1: clamp(2.5rem, 0.423rem + 4.1025641vw, 3.5rem);
+  --fs-2: clamp(2rem, 0.9615384615rem + 2.051282051vw, 2.5rem);
+  --fs-3: clamp(1.5rem, 0.461538615rem + 2.051282051vw, 2rem);
+  --fs-4: clamp(1.25rem, 0.73076923rem + 1.025641025vw, 2rem);
+  --fs-5: 1.125rem;
+  --fs-6: clamp(1.25rem, 0.061538461rem + 0.51282051282vw, 1rem);
+  --fs-7: 1.125rem;
 }
 
 *,
@@ -26,6 +33,11 @@ h2,
 h3 {
   font-weight: 800;
   margin: 0;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {

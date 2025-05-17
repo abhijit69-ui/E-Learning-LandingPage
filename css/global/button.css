@@ -1,0 +1,17 @@
+.button {
+  font-size: var(--fs-7);
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 10.5px 24px;
+  border-radius: 28px;
+  transition: background 150ms ease-in-out;
+}
+
+.button.dark {
+  background-color: var(--c-blue-900);
+  color: var(--c-white);
+}
+
+.button.dark:hover {
+  background-color: var(--c-blue-600);
+}
