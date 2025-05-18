@@ -55,3 +55,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+img.logo:hover {
+  opacity: 0.75;
+}
+
+.logo {
+  width: 4.955625rem;
+  transition: opacity 150ms ease-in-out;
+}
+@media (width>= 75em) {
+  .logo {
+    width: 6.9375rem;
+  }
+}
