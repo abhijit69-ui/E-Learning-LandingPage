@@ -43,4 +43,11 @@
 }
 
 @media (width >= 75em) {
+  .hero picture {
+    max-width: 1040px;
+    translate: 47% -27%;
+  }
+  .hero__text {
+    padding-block: 110px;
+  }
 }
