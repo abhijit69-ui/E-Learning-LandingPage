@@ -5,17 +5,16 @@
   padding-block: 16px;
 }
 
-.header .logo {
-  width: 4.955625rem;
-}
-
 @media (width>= 50.625em) {
   .header {
     padding-block: 24px;
   }
 }
+.logo {
+  width: 4.955625rem;
+}
 @media (width>= 75em) {
-  .header .logo {
+  .logo {
     width: 6.9375rem;
   }
 }
